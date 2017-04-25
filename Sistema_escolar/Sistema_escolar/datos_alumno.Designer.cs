@@ -586,14 +586,13 @@
             this.Cmbnivel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cmbnivel.FormattingEnabled = true;
             this.Cmbnivel.Items.AddRange(new object[] {
-            "01-Preescolar",
             "02-Primaria",
             "03-Secundaria"});
             this.Cmbnivel.Location = new System.Drawing.Point(426, 32);
             this.Cmbnivel.Name = "Cmbnivel";
             this.Cmbnivel.Size = new System.Drawing.Size(138, 29);
             this.Cmbnivel.TabIndex = 11;
-            this.Cmbnivel.Text = "seleccionar";
+            this.Cmbnivel.Text = "01-Preescolar";
             this.Cmbnivel.SelectedIndexChanged += new System.EventHandler(this.Cmbnivel_SelectedIndexChanged);
             // 
             // dateTimePicker1

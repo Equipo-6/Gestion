@@ -64,5 +64,16 @@ namespace Sistema_escolar
         {
 
         }
+
+        private void gruposToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void agregarToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Form agregargrupo =  new frm_Datos_grupo();
+            agregargrupo.Show();
+        }
     }
 }

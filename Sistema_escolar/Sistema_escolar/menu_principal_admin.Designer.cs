@@ -42,6 +42,10 @@
             this.aGREGARToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.cONSULTARToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.eLIMINARToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.gruposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.aYUDAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cOMOAGREGARUNALUMNOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cOMOAGREGARUNPROFESORToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,10 +60,11 @@
             this.toolStripMenuItem1,
             this.pREFESORESToolStripMenuItem,
             this.aDMINISTRADORToolStripMenuItem,
+            this.gruposToolStripMenuItem,
             this.aYUDAToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(443, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(581, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -79,21 +84,21 @@
             // 
             this.aGREGARToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("aGREGARToolStripMenuItem1.Image")));
             this.aGREGARToolStripMenuItem1.Name = "aGREGARToolStripMenuItem1";
-            this.aGREGARToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.aGREGARToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
             this.aGREGARToolStripMenuItem1.Text = "AGREGAR";
             this.aGREGARToolStripMenuItem1.Click += new System.EventHandler(this.aGREGARToolStripMenuItem1_Click);
             // 
             // eLIMINARToolStripMenuItem1
             // 
             this.eLIMINARToolStripMenuItem1.Name = "eLIMINARToolStripMenuItem1";
-            this.eLIMINARToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.eLIMINARToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
             this.eLIMINARToolStripMenuItem1.Text = "ELIMINAR";
             this.eLIMINARToolStripMenuItem1.Click += new System.EventHandler(this.eLIMINARToolStripMenuItem1_Click);
             // 
             // cONSULTARToolStripMenuItem
             // 
             this.cONSULTARToolStripMenuItem.Name = "cONSULTARToolStripMenuItem";
-            this.cONSULTARToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cONSULTARToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.cONSULTARToolStripMenuItem.Text = "CONSULTAR";
             this.cONSULTARToolStripMenuItem.Click += new System.EventHandler(this.cONSULTARToolStripMenuItem_Click);
             // 
@@ -112,21 +117,21 @@
             // aGREGARToolStripMenuItem
             // 
             this.aGREGARToolStripMenuItem.Name = "aGREGARToolStripMenuItem";
-            this.aGREGARToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aGREGARToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.aGREGARToolStripMenuItem.Text = "AGREGAR";
             this.aGREGARToolStripMenuItem.Click += new System.EventHandler(this.aGREGARToolStripMenuItem_Click);
             // 
             // cONSULTARToolStripMenuItem1
             // 
             this.cONSULTARToolStripMenuItem1.Name = "cONSULTARToolStripMenuItem1";
-            this.cONSULTARToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.cONSULTARToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
             this.cONSULTARToolStripMenuItem1.Text = "CONSULTAR";
             this.cONSULTARToolStripMenuItem1.Click += new System.EventHandler(this.cONSULTARToolStripMenuItem1_Click);
             // 
             // eLIMINARToolStripMenuItem
             // 
             this.eLIMINARToolStripMenuItem.Name = "eLIMINARToolStripMenuItem";
-            this.eLIMINARToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.eLIMINARToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.eLIMINARToolStripMenuItem.Text = "ELIMINAR";
             this.eLIMINARToolStripMenuItem.Click += new System.EventHandler(this.eLIMINARToolStripMenuItem_Click);
             // 
@@ -159,8 +164,38 @@
             // eLIMINARToolStripMenuItem2
             // 
             this.eLIMINARToolStripMenuItem2.Name = "eLIMINARToolStripMenuItem2";
-            this.eLIMINARToolStripMenuItem2.Size = new System.Drawing.Size(140, 22);
+            this.eLIMINARToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
             this.eLIMINARToolStripMenuItem2.Text = "ELIMINAR";
+            // 
+            // gruposToolStripMenuItem
+            // 
+            this.gruposToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agregarToolStripMenuItem3,
+            this.eliminarToolStripMenuItem3,
+            this.consultarToolStripMenuItem3});
+            this.gruposToolStripMenuItem.Name = "gruposToolStripMenuItem";
+            this.gruposToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.gruposToolStripMenuItem.Text = "Grupos";
+            this.gruposToolStripMenuItem.Click += new System.EventHandler(this.gruposToolStripMenuItem_Click);
+            // 
+            // agregarToolStripMenuItem3
+            // 
+            this.agregarToolStripMenuItem3.Name = "agregarToolStripMenuItem3";
+            this.agregarToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.agregarToolStripMenuItem3.Text = "Agregar";
+            this.agregarToolStripMenuItem3.Click += new System.EventHandler(this.agregarToolStripMenuItem3_Click);
+            // 
+            // eliminarToolStripMenuItem3
+            // 
+            this.eliminarToolStripMenuItem3.Name = "eliminarToolStripMenuItem3";
+            this.eliminarToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.eliminarToolStripMenuItem3.Text = "Eliminar";
+            // 
+            // consultarToolStripMenuItem3
+            // 
+            this.consultarToolStripMenuItem3.Name = "consultarToolStripMenuItem3";
+            this.consultarToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.consultarToolStripMenuItem3.Text = "consultar";
             // 
             // aYUDAToolStripMenuItem
             // 
@@ -202,7 +237,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 300);
+            this.ClientSize = new System.Drawing.Size(581, 300);
             this.Controls.Add(this.menuStrip1);
             this.Name = "frm_menu_admin";
             this.Text = "menu_principal";
@@ -233,5 +268,9 @@
         private System.Windows.Forms.ToolStripMenuItem cOMOAGREGARUNPROFESORToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cOMOAGREGARUNADMINISTRADORToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cOMOAGREGARUNSECRETARIOAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gruposToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem eliminarToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem3;
     }
 }
