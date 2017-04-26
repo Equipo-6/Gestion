@@ -35,3 +35,5 @@ C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\Control
 C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\Control Escolar.pdb
 C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\MySql.Data.dll
 C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\MySql.Data.xml
+C:\Users\Eduardo\Documents\GitHub\Gestion\Control Escolar\Control Escolar\bin\Debug\Control Escolar.exe.config
+C:\Users\Eduardo\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control Escolar.pdb
