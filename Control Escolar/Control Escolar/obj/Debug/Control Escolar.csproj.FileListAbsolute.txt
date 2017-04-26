@@ -1,0 +1,37 @@
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\bin\Debug\Control Escolar.exe.config
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\bin\Debug\Control Escolar.exe
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\bin\Debug\Control Escolar.pdb
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control Escolar.csprojResolveAssemblyReference.cache
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Properties.Resources.resources
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control Escolar.csproj.GenerateResource.Cache
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control Escolar.exe
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control Escolar.pdb
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Control_Escolar.resources
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Login.resources
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Alumnos_Inscripciones.resources
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Bajas_Alumnos.resources
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Reinscripciones_Alumnos.resources
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Busqueda_Alumnos.resources
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Altas_Profesores.resources
+C:\Users\Sidney\Desktop\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Cambios_Profesores.resources
+C:\Users\Sidney\Documents\Tec\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\bin\Debug\Control Escolar.exe.config
+C:\Users\Sidney\Documents\Tec\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control Escolar.exe
+C:\Users\Sidney\Documents\Tec\Gestion de Proyectos\Control Escolar (Programacion)\Control Escolar\Control Escolar\obj\Debug\Control Escolar.pdb
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\Control Escolar.exe.config
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control Escolar.exe
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control Escolar.pdb
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control Escolar.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Altas_Profesores.resources
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Alumnos_Inscripciones.resources
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Bajas_Alumnos.resources
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Busqueda_Alumnos.resources
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Cambios_Profesores.resources
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Control_Escolar.resources
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Login.resources
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Properties.Resources.resources
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Reinscripciones_Alumnos.resources
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\obj\Debug\Control Escolar.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\Control Escolar.exe
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\Control Escolar.pdb
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\MySql.Data.dll
+C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\MySql.Data.xml

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{122B0712-DB40-4EF9-835D-5BE3B8F712EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Control_Escolar</RootNamespace>
+    <AssemblyName>Control Escolar</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccionesAlumnos.cs" />
+    <Compile Include="Altas_Profesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Altas_Profesores.Designer.cs">
+      <DependentUpon>Altas_Profesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno.cs" />
+    <Compile Include="Alumnos_Inscripciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alumnos_Inscripciones.Designer.cs">
+      <DependentUpon>Alumnos_Inscripciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bajas_Alumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bajas_Alumnos.Designer.cs">
+      <DependentUpon>Bajas_Alumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bajas_Profesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bajas_Profesores.Designer.cs">
+      <DependentUpon>Bajas_Profesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Busqueda_Alumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busqueda_Alumnos.Designer.cs">
+      <DependentUpon>Busqueda_Alumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Busqueda_Profesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busqueda_Profesores.Designer.cs">
+      <DependentUpon>Busqueda_Profesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cambios_Alumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cambios_Alumnos.Designer.cs">
+      <DependentUpon>Cambios_Alumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cambios_Profesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cambios_Profesores.Designer.cs">
+      <DependentUpon>Cambios_Profesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Context\Conexion.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reinscripciones_Alumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reinscripciones_Alumnos.Designer.cs">
+      <DependentUpon>Reinscripciones_Alumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validacion.cs" />
+    <EmbeddedResource Include="Altas_Profesores.resx">
+      <DependentUpon>Altas_Profesores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alumnos_Inscripciones.resx">
+      <DependentUpon>Alumnos_Inscripciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bajas_Alumnos.resx">
+      <DependentUpon>Bajas_Alumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busqueda_Alumnos.resx">
+      <DependentUpon>Busqueda_Alumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cambios_Profesores.resx">
+      <DependentUpon>Cambios_Profesores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reinscripciones_Alumnos.resx">
+      <DependentUpon>Reinscripciones_Alumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\directorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\docente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconos_docente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padron_estudiante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padron_estudiante1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_oc08onmgBr1uxqtioo1_500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_static_tumblr_static__640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo_ControlEscolar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iae.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iae1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iae2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-con-dibujos-de-escuela_23-2147496287.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-escolar-hofmann-para-album-classic-material-de-clase_escolares-29-classic_1200px.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18336339-laboratory-equipment-background-Stock-Vector-science-chemistry-cartoon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50-regalos-de-la-internet-para-diseñadores9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
