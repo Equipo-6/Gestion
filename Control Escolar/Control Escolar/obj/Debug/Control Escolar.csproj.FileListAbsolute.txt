@@ -35,3 +35,21 @@ C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\Control
 C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\Control Escolar.pdb
 C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\MySql.Data.dll
 C:\Users\Administrador\Desktop\Control Escolar\Control Escolar\bin\Debug\MySql.Data.xml
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\bin\Debug\Control Escolar.exe.config
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control Escolar.exe
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control Escolar.pdb
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\bin\Debug\Control Escolar.exe
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\bin\Debug\Control Escolar.pdb
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\bin\Debug\MySql.Data.dll
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\bin\Debug\MySql.Data.xml
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control Escolar.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Altas_Profesores.resources
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Alumnos_Inscripciones.resources
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Bajas_Alumnos.resources
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Busqueda_Alumnos.resources
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Cambios_Profesores.resources
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Control_Escolar.resources
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Login.resources
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Properties.Resources.resources
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Reinscripciones_Alumnos.resources
+C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control Escolar.csproj.GenerateResource.Cache
