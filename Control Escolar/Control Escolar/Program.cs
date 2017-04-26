@@ -16,7 +16,7 @@ namespace Control_Escolar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Alumnos_Inscripciones());
+            Application.Run(new Login());
         }
     }
 }
