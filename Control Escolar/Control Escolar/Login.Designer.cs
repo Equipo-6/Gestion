@@ -48,6 +48,7 @@
             this.Boton_LogginIngresar.Text = "Ingresar";
             this.Boton_LogginIngresar.UseVisualStyleBackColor = false;
             this.Boton_LogginIngresar.Click += new System.EventHandler(this.Boton_LogginIngresar_Click);
+            this.Boton_LogginIngresar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Boton_LogginIngresar_KeyPress);
             // 
             // textBox1
             // 
@@ -55,6 +56,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(146, 20);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -62,6 +64,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(146, 20);
             this.textBox2.TabIndex = 2;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // lbl_Nombre
             // 

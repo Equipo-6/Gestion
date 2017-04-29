@@ -59,5 +59,44 @@ namespace Control_Escolar
             }
             Cn.Close();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Boton_LogginIngresar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                Cn.Open();
+                Cmd.Connection = Cn;
+                try
+                {
+                    Cmd.CommandText = "Select count(*) from session_alumno where Alumno_CURP= '" + textBox1.Text + "'and contra='" + textBox2.Text + "'";
+                    int valor = int.Parse(Cmd.ExecuteScalar().ToString());
+                    //CONFIRMA CON UN VALOR 1 , SI EXISTE O NO 
+                    if (valor == 1)
+                    {
+                        lblmensaje.Text = "Bienvenido";
+                    }
+                    else
+                    {
+                        lblmensaje.Text = "no existe";
+                    }
+                }
+                catch (Exception ex)
+                {
+                    lblmensaje.Text = "error siguiente" + ex;
+                }
+                Cn.Close();
+            }
+
+        }
     }
 }
