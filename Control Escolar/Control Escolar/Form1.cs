@@ -86,5 +86,15 @@ namespace Control_Escolar
             Cambios_Profesores Profesores_Cambios = new Cambios_Profesores();
             Profesores_Cambios.Show();
         }
+
+        private void formatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

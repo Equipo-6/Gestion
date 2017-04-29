@@ -73,3 +73,20 @@ C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\
 C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Reinscripciones_Alumnos.resources
 C:\Users\Administrador\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control Escolar.csproj.GenerateResource.Cache
 >>>>>>> origin/master
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\bin\Debug\Control Escolar.exe.config
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control Escolar.pdb
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\bin\Debug\Control Escolar.exe
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\bin\Debug\Control Escolar.pdb
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\bin\Debug\MySql.Data.dll
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control Escolar.csprojResolveAssemblyReference.cache
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Altas_Profesores.resources
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Alumnos_Inscripciones.resources
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Bajas_Alumnos.resources
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Busqueda_Alumnos.resources
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Cambios_Profesores.resources
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Control_Escolar.resources
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Login.resources
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Properties.Resources.resources
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control_Escolar.Reinscripciones_Alumnos.resources
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control Escolar.csproj.GenerateResource.Cache
+C:\Users\Eloy Radilla Andrès\Documents\GitHub\Gestion\Control Escolar\Control Escolar\obj\Debug\Control Escolar.exe

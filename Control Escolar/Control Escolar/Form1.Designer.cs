@@ -43,8 +43,6 @@
             this.cambiosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.inscripcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.constanciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.boletasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reglamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tarjetaDePagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.solicitudDeReinscripcionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,6 +69,7 @@
             this.menuStrip1.Stretch = false;
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // alumnosToolStripMenuItem
             // 
@@ -165,8 +164,6 @@
             // 
             this.inscripcionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2,
-            this.constanciasToolStripMenuItem,
-            this.boletasToolStripMenuItem,
             this.reglamentoToolStripMenuItem,
             this.tarjetaDePagoToolStripMenuItem,
             this.solicitudDeReinscripcionToolStripMenuItem,
@@ -180,18 +177,6 @@
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(331, 28);
             this.toolStripMenuItem2.Text = "Listas";
-            // 
-            // constanciasToolStripMenuItem
-            // 
-            this.constanciasToolStripMenuItem.Name = "constanciasToolStripMenuItem";
-            this.constanciasToolStripMenuItem.Size = new System.Drawing.Size(331, 28);
-            this.constanciasToolStripMenuItem.Text = "Constancias";
-            // 
-            // boletasToolStripMenuItem
-            // 
-            this.boletasToolStripMenuItem.Name = "boletasToolStripMenuItem";
-            this.boletasToolStripMenuItem.Size = new System.Drawing.Size(331, 28);
-            this.boletasToolStripMenuItem.Text = "Boletas";
             // 
             // reglamentoToolStripMenuItem
             // 
@@ -221,9 +206,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = global::Control_Escolar.Properties.Resources.logo;
-            this.ClientSize = new System.Drawing.Size(890, 388);
+            this.ClientSize = new System.Drawing.Size(902, 388);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -254,16 +240,11 @@
         private System.Windows.Forms.ToolStripMenuItem bajasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem cambiosToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem constanciasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem boletasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reglamentoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tarjetaDePagoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem solicitudDeReinscripcionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem comprobanteDeSeguroToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator busquedaToolStripMenuItem;
-
-
-
     }
 }
 
